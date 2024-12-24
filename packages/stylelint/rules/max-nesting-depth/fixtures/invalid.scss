@@ -1,0 +1,13 @@
+.container {
+  .item {
+    .sub-item {
+      .nested-item {
+        .deeply-nested {
+          .extra-deep {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
