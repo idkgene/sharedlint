@@ -1,0 +1,10 @@
+{
+  "name": "stylelint",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": "true",
+  "peerDependencies": {
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
