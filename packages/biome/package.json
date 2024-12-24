@@ -1,0 +1,9 @@
+{
+    "name": "@idkgene/biome",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": "true",
+    "peerDependencies": {
+        "biome": "^0.3.3"
+    }
+}
