@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains a custom, rule-based Stylelint configuration designed to ensure consistent and high-quality styling across all projects. This configuration is built with a strong emphasis on modularity, where each Stylelint rule has its own dedicated directory containing documentation, test fixtures, and the rule's test suite.
+This folder contains a custom, rule-based Stylelint configuration designed to ensure consistent and high-quality styling across all projects. This configuration is built with a strong emphasis on modularity, where each Stylelint rule has its own dedicated directory containing documentation, test fixtures, and the rule's test suite.
 
 ## Key Features
 
