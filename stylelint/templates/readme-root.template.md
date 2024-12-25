@@ -1,10 +1,8 @@
-# Custom Stylelint Configuration for [Your Organization/Project Name]
+# Custom Stylelint Configuration
 
-[![Build Status](your_ci_badge_link_here)](your_ci_link_here)
-[![npm version](your_npm_badge_link_here)](your_npm_link_here)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains a custom, rule-based Stylelint configuration designed to ensure consistent and high-quality styling across all [Your Organization/Project Name] projects. This configuration is built with a strong emphasis on modularity, where each Stylelint rule has its own dedicated directory containing comprehensive documentation, test fixtures, and the rule's test suite.
+This repository contains a custom, rule-based Stylelint configuration designed to ensure consistent and high-quality styling across all projects. This configuration is built with a strong emphasis on modularity, where each Stylelint rule has its own dedicated directory containing documentation, test fixtures, and the rule's test suite.
 
 ## Key Features
 
@@ -19,16 +17,16 @@ This repository contains a custom, rule-based Stylelint configuration designed t
 1.  Install Stylelint and this configuration as development dependencies:
 
     ```bash
-    npm install --save-dev stylelint @your-org/stylelint-config # Replace @your-org/stylelint-config with your actual package name
+    npm install --save-dev stylelint @idkgene/stylelint-config 
     # or
-    yarn add -D stylelint @your-org/stylelint-config
+    yarn add -D stylelint @idkgene/stylelint-config
     ```
 
 2.  Extend this configuration in your `.stylelintrc.js` (or `stylelint.config.js`) file:
 
     ```javascript
     module.exports = {
-      extends: ['@your-org/stylelint-config'], // Replace @your-org/stylelint-config with your actual package name
+      extends: ['@idkgene/stylelint-config'],
       // You can add any additional project-specific overrides here
     };
     ```
