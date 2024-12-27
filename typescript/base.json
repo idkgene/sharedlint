@@ -33,7 +33,6 @@
         "useUnknownInCatchVariables": true,
         "verbatimModuleSyntax": true
     },
-    "docs": "https://github.com/idkgene/sharedlint",
     "exclude": [
         "node_modules"
     ]
