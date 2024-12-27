@@ -1,5 +1,8 @@
 {
   "name": "style-guide",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9.0"
+  }
 }
