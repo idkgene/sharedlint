@@ -1,2 +1,17 @@
-* text=auto
-*.* text eol=lf
+* text=auto eol=lf
+
+*.json text eol=lf
+*.md text eol=lf
+*.js text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.yaml text eol=lf
+*.editorconfig text eol=lf
+*.gitignore text eol=lf
+*.npmrc text eol=lf
+*.prettierignore text eol=lf
+*.stylelintrc.js text eol=lf
+*.node-version text eol=lf
+turbo.json text eol=lf
+LICENSE.md text eol=lf
