@@ -1,7 +1,15 @@
-import { GLOB_EXCLUDE } from "../globs";
+import type { TypedFlatConfigItem } from '../types'
 
-export default [
-  {
-    ignores: GLOB_EXCLUDE,
-  },
-];
+import { GLOB_EXCLUDE } from '../globs'
+
+export async function ignores(userIgnores: string[] = []): Promise<TypedFlatConfigItem[]> {
+  return [
+    {
+      ignores: [
+        ...GLOB_EXCLUDE,
+        ...userIgnores,
+      ],
+      name: 'gene/ignores',
+    },
+  ]
+}
